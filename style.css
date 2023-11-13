@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Roboto&family=Roboto+Condensed&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+header {
+    display: flex;
+    background: #3f4045;
+    color: white;
+}
+
+body {
+    background-color: #F9F9F9;
+}
+
+#logo {
+    padding: 30px;
+    transition: all .3s ease;
+}
+
+#logo:hover {
+    transform: scale(1.05);
+}
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-left: 750px;
+    margin-top: 70px;
+}
+
+header ul a {
+    color: white;
+    text-decoration: none;
+    position: relative; 
+}
+
+header ul a::after {
+    content: '';  
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 2px solid transparent; 
+    transition: border-bottom 0.3s ease-in-out;  
+}
+
+header ul a:hover::after {
+    border-bottom: 2px solid white;  
+}
+
+.main-sec h2, h3{
+    color: gray;
+    font-weight: lighter;
+    padding: 30px;
+}
+
+.main-sec img{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    width: 140px;
+    margin-left: 610px;
+    border-radius: 100px;
+}
+
+.main-sec h3 {
+    padding: 26px;
+    color: gray;
+    font-weight: lighter;
+    padding-bottom: 70px;
+}
+
+.main-sec article p{
+    margin-left: 60px;
+    padding: 20px 100px 0 60px;
+    color: gray;
+}
+
+.projects {
+    margin-top: 90px;
+}
+.projects h3{
+    color: grey;
+    padding-left: 26px;
+}
+
+.projects ul{
+    color: grey;
+    padding-left: 26px;
+    /* list-style: none; */
+    padding: 40px;
+}
+.projects ul a{
+    padding-left: 26px;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    color: grey;
+
+}
+
+
+footer ul li a img{
+    height: 100px;
+    
+}
+footer ul li {
+    display: inline-block;
+    margin: 50px;
+    margin-left: 150px;
+    margin-top: 16px;
+}
+
+footer {
+    background: #3f4045;
+}
+
