@@ -21,11 +21,31 @@ main {
 }
 
 section.projects {
+    color: #ADB1FF;
+}
+
+.projects ul {
+    list-style-type: square;
+}
+
+.projects a {
     color: #ADDCFF;
 }
 
 footer {
-    border: 1px solid #ADDCFF;
+    background-color: #ADB1FF;
+}
+
+footer ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5px;
+    color: black;
+}
+
+footer li {
+    margin: 0 auto;
+    padding: 10px;
 }
 
 .linkedin img {
