@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    color: cornflowerblue;
+    background-color: antiquewhite;
+};
+
+h1 .rotate-center{animation:rotate-center .6s ease-in-out both}
+
+/* article ul li a:link {
+    color: chartreuse;
+} */
+
+/* article {
+    color: rgb(247, 149, 198);
+    font-family: 'Courier New';
+} */
+
+
+/* 
+div .welcome img {
+    display: block;
+    margin: 0 auto;
+} */
+
+/* h4 img {
+    width: 50px;
+    height: 50px;
+} */
