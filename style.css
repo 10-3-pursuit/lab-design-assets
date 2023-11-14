@@ -1,7 +1,13 @@
 h1 {
     text-align: center;
 };
+/* 
+div .welcome img {
+    display: block;
+    margin: 0 auto;
+} */
 
-h3 {
-    text-align: center;
-};
+h4 img {
+    width: 50px;
+    height: 50px;
+}
