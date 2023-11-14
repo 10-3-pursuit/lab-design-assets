@@ -121,4 +121,4 @@ cypress/screenshots
 
 # other artifacts
 .DS_Store
-
+.vscode

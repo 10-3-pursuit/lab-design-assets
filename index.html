@@ -4,63 +4,61 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="./assets/favicon-32x32.png" />
+    <script defer src="main.js"></script>
     <title>MY PORTFOLIO</title>
   </head>
   <body>
     <header>
-      <h1>MY NAME</h1>
+      <h1 class = "center">Michael Restrepoross</h1>
+      <img src="assets/favicon-32x32.png" alt="Your Icon Alt Text" class="icon" />
     </header>
     <main>
-      <section>
-        <h2>Welcome</h2>
-        <article>
-          <h3>About me</h3>
+      <section class="about-me-section">
+        <h2>About Me</h2>
+        <div class="content">
           <p>
-            My name is . I am a web developer located in . A little more about
-            me .
+            Hello, I'm Michael Restrepoross, a web developer based in New York with a solid background in computer science. My journey started with a fascination for website development, evolving into a career where I've honed my skills in full-stack development using JavaScript and Java. I bring a cybersecurity perspective, ensuring secure coding practices in all my projects. Eager to continue growing in this dynamic field, I'm excited to connect and collaborate on innovative projects with like-minded professionals. Let's explore opportunities to work together and contribute to meaningful endeavors.
           </p>
-          <p>I am passionate about .</p>
-          <p>A cool fact about me is .</p>
-          <button>Contact me!</button>
-        </article>
+
+        </div>
       </section>
-      <section>
-        <h3>Projects</h3>
-        <article>
-          <ul>
-            <!-- TO DO LINK TO THE THREE LABS OR PROJECTS YOU ARE MOST PROUD OF SO FAR -->
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-          </ul>
-        </article>
-      </section>
+      <div class =projects-info>
+        <section class="projects-section">
+          <h2>Projects</h2>
+          <div class="content">
+            <ul>
+              <li><span class="project-link">Online Game store simulator</span></li>
+              <li><span class="project-link">Trivia questions</span></li>
+              <li><span class="project-link">Game Store application with buying functionality</span></li>
+              <li><span class="project-link">Simple Color Grid with reset</span></li>
+            </ul>
+          </div>
+        </section>
+        <section class="project-info-section">
+          <h2>Project Details</h2>
+          <div class="content">
+            <p id="projectDetails">Details about the selected project.</p>
+            <div id="projectButtonsContainer">
+              <!-- Buttons will be appended here -->
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
-    <aside>
-      <h4>Work Experience</h4>
-      <!-- add whatever details you want here -->
-      <h4>School</h4>
-      <!-- add whatever details you want here -->
-    </aside>
     <footer>
-      <ul>
-        <li>
-          <!-- TO DO UPDATE LINKS TO GO TO YOUR PROFILES/EMAIL -->
-          <a href="https://www.linkedin.com/"
-            ><img src="./assets/LinkedIn-Logos/LI-Logo.png" alt=""
-          /></a>
-        </li>
-        <li>
-          <a href="https://github.com"
-            ><img src="./assets/github-mark/github-mark.png" alt=""
-          /></a>
-        </li>
-        <li>
-          <a href="mailto:YOUR@EMAIL.HERE"
-            ><img src="./assets/email-g8e9fd44a3_640.png" alt="Email me"
-          /></a>
-        </li>
-      </ul>
+      <div class="footer-links center">
+        <a href="mailto:michaelrestrepoross@pursuit.org" target="_blank">
+          <img src="./assets/email-g8e9fd44a3_640.png" alt="Email me" />
+        </a>
+        <a href="https://github.com/MichaelARestrepoross" target="_blank">
+          <img src="./assets/github-mark/github-mark.png" alt="GitHub" />
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank">
+          <img src="./assets/LinkedIn-Logos/LI-Logo.png" alt="LinkedIn" />
+        </a>
+      </div>
     </footer>
   </body>
 </html>
