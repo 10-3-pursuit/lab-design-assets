@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300&display=swap');
+
+html,
+body {
+    background-image: url("./assets/thomas-chizzali-7dlm5aRa4Qw-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFC7AD;
+    font-family: "Roboto Mono";
+}
+
+header h1 {
+    border-top: 1px solid aliceblue;
+    border-bottom: 1px solid aliceblue;
+    width: 28rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about-me img {
+    width: 300px;
+    height: 250px;
+}
+
+section.projects {
+    color: #ADB1FF;
+}
+
+.projects ul {
+    list-style-type: square;
+}
+
+.projects a {
+    color: #ADDCFF;
+}
+
+footer {
+    background-color: #ADB1FF;
+}
+
+footer ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5px;
+    color: black;
+}
+
+footer li {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.linkedin img {
+    width: 85px;
+}
+
+.github img {
+    width: 25px;
+}
+
+.email img {
+    width: 25px;
+}
