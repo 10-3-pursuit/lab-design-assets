@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Alumni+Sans+Inline+One&display=swap");
+
+*{
+    background: lightskyblue; 
+};
+
+/* header { 
+    text-align: center;
+} */
+@keyframes example {
+    0% {color:blue; left: 0;};
+    33% {color: orange; left: 33vw;}
+    66% {color: green; left: 66vw;}
+    100% {color:purple; left: 100vw;}
+    }
+
+h1 {
+    
+    position: relative;
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+
+};
+h2 {
+    font-family: 'Lucida Sans';
+}
+main {
+    border: 20px;
+}
