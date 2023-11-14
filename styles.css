@@ -63,12 +63,24 @@ h4 {
     margin: 0;
 }
 
+#color-first {
+    color: var(--sinopia)
+}
+
 #color-word1 {
     color: var(--engineering-orange);
 }
 
 #color-word2 {
     color: var(--princeton-orange);
+}
+
+#color-word3 {
+    color: var(--selective-yellow);
+}
+
+#color-word4 {
+    color: var(--penn-red);
 }
 
 main {
