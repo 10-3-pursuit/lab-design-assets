@@ -20,6 +20,11 @@ main {
     grid-template-columns: repeat(2, 1fr);
 }
 
+.about-me img {
+    width: 300px;
+    height: 250px;
+}
+
 section.projects {
     color: #ADB1FF;
 }
