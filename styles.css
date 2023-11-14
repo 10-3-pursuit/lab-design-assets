@@ -148,12 +148,12 @@ ul {
     align-items: center;
 }
 
-li a {
+#projects a {
     color: var(--rosewood);
     text-decoration: none;
 }
 
-li a:hover {
+#projects a:hover {
     color: var(--rich-black);
     background-color: var(--persimmon);
   }
