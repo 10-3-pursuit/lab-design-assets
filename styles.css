@@ -1,0 +1,104 @@
+/*@keyframes puff-in-center {
+    0% {
+      transform: scale(2);
+      filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
+  
+  .puff-in {
+    animation: puff-in-center 1s ease-out;
+  }
+  */
+
+@keyframes bg-pan-left {
+    0% {
+        background-position: 0% 0%;
+      }
+      25% {
+        background-position: 100% 0%;
+      }
+      50% {
+        background-position: 100% 100%;
+      }
+      75% {
+        background-position: 0% 100%;
+      }
+      100% {
+        background-position: 0% 0%;
+      }
+    }
+    
+
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, #19dcea, #6be982, #1cc886, #f0d478, #19dcea);
+    background-size: 200% 200%;
+    animation: bg-pan-left 8s ease infinite; /* Added linear timing function */
+  }
+footer .linkedin-logo{
+    width: 300px;
+    height: auto;
+  }
+  
+  footer .github-logo {
+    width: 200px;
+    height: auto;
+
+  }
+
+  footer .email-logo{
+    width: 200px;
+    height: auto;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 50;
+    margin: 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    margin-right: 300px; 
+  }
+
+  footer ul li:last-child {
+    margin-right: 0; 
+  }
+    
+    header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+  }
+  
+  footer {
+    
+    color: #fff;
+  }
+  
+  a {
+    color: #3498db;
+  }
+  
+  ul {
+    list-style-type: square;
+    padding: ;
+  }
+
+ .next-to{
+    margin-left: 70px;
+  
+  
+
+   
+   
