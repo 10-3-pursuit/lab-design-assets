@@ -67,8 +67,6 @@ h1 {
 nav li{
     /* border: 2px solid red; */
     /* list-style-type: none; */
-    /* text-align: center */
-    margin-right: 40px
 }
   
 nav a {
@@ -82,7 +80,6 @@ nav a {
 
 nav a:hover {
     color: var(--dark-magenta);
-    text-decoration: underline;
 }
 
 h2 {
