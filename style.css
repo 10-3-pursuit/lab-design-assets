@@ -154,10 +154,8 @@ ul {
 .contact-container {
     /* border: 2px solid red; */
     border-bottom: 1px solid var(--icterine);
-    /* border-top: 1px solid var(--icterine); */
     width: 700px;
     margin: 0 auto;
-    /* max-width:1050px; */
 }
 
 footer img {
@@ -170,8 +168,6 @@ footer img {
 footer li {
     /* border: 2px solid red; */
     display: inline-block;
-    /* margin-left: 20px; */
-    /* margin-right: 20px; */
 }
 
 /* footer li:hover {
