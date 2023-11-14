@@ -23,7 +23,8 @@ body {
   /* Container */
 
   .container {
-    max-width:1100px;
+    /* border: 2px solid red; */
+    max-width:1050px;
     margin: 0 auto;
     padding: 20px;
     background-image: url('assets/images/Shiny Overlay (3).svg');
@@ -35,7 +36,7 @@ body {
   header {
     /* border: 2px solid red; */
     color: var(--icterine);
-    padding: 20px;
+    margin-bottom: 5px;
   }
 
   h1 {
@@ -45,39 +46,37 @@ body {
 
   nav ul {
     /* border: 2px solid red; */
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    /* list-style-type: none; */
     text-align: center;
   }
   nav a {
     /* border: 2px solid red; */
     text-decoration: none;
-    color: var(--icterine);
-    /* font-weight: bold; */
+    color: var(--lapis-lazuli);
+    font-weight: bold;
     font-size: 18px;
     transition: color 0.3s ease;
   }
 
   nav a:hover {
-    color: var(--icterine);
+    color: var(--dark-magenta);
     text-decoration: underline;
   }
 
   /* Main Content */
 
   main {
-    padding: 20px;
     margin-top: 20px;
     /* border: 2px solid red; */
   }
 
   section {
-    margin-bottom: 30px;
     /* border: 2px solid red; */
+    margin: 10px;
   }
 
   h2 {
+    /* border: 2px solid red; */
     color: var(--icterine);
     text-align: center;
   }
@@ -85,19 +84,23 @@ body {
   h3 {
     color: var(--verdigris);
     /* border: 2px solid red; */
-    margin-top: 20px;
-    margin-bottom: 20px;;
     text-align: center;
+    padding: 20px 0px 10px 0px;
   }
+
+  footer h3 {
+    color: var(--papaya-whip);
+  }
+
 
   article p {
     /* border: 2px solid red; */
-    margin-bottom: 15px;
+    padding: 10px 0px 20px 0px;
     color: var(--papaya-whip);
 
   }
 
-  button {
+  /* button {
     background-color: var(--lapis-lazuli);
     color: var(--verdigris);
     padding: 10px 20px;
@@ -110,26 +113,41 @@ body {
   button:hover {
     background-color: var(--dark-magenta);
     color: var(--icterine)
-  }
+  } */
 
   /* Projects*/
   ul {
+    /* border: 2px solid red; */
     list-style-type: none;
+    text-align: center;
+  }
+  .projects-container {
+    border: 2px solid red;
+    margin-top: 20px;
+    padding-top: 0px;
+  }
+
+  #projects li {
+    /* border: 2px solid red; */
+    display: inline-block;
+    margin: 10px 35px 10px 35px;
+  }
+  #projects a {
+    /* border: 2px solid red; */
+    color: var(--papaya-whip);
+    text-decoration: none;
   }
 
   aside {
     /* border: 2px solid red; */
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 2\10px;
     border-radius: 10px;
   }
 
   footer {
     /* border: 2px solid red; */
-    /* color: #fff; */
     text-align: center;
-    padding: 10px;
-    margin-top: 20px;
     border-radius: 10px;
   }
 
