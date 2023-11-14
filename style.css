@@ -157,6 +157,7 @@ ul {
     /* border-top: 1px solid var(--icterine); */
     width: 700px;
     margin: 0 auto;
+    /* max-width:1050px; */
 }
 
 footer img {
