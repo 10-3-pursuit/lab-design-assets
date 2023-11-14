@@ -27,7 +27,8 @@ body {
 
 h1, 
 h2, 
-h3 {
+h3, 
+h4 {
     font-family: 'Playfair Display';
 }
 
@@ -102,12 +103,14 @@ footer h3 {
     color: var(--lapis-lazuli);
 }
 
+h4 {
+    color: var(--verdigris)
+}
 
 article p {
     /* border: 2px solid red; */
-    padding: 10px 0px 10px 0px;
+    padding: 8px;
     color: var(--papaya-whip);
-
 }
 
 /* button {
