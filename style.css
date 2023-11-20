@@ -1,0 +1,14 @@
+.icon{
+    height: 40px;
+    width: auto;
+}
+body {
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/paisley.png');
+    background-size: cover;
+  }
+  h1 {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    color: blueviolet;
+  }
